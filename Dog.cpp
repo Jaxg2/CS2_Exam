@@ -6,9 +6,6 @@ Dog::Dog()
 	dog_age = 0;
 	hum_age = 0;
 
-	//getAge();
-	//getName();
-	//getBreed();
 }
 
 int Dog::getAge()

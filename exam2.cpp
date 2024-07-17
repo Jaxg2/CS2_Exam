@@ -15,4 +15,7 @@ int main()
 
 	dog.printInfo();
 	dog.shakeHand();
+	dog.sitDown();
+
+
 }
