@@ -12,7 +12,10 @@ private:
 	int year;
 	int mph;
 	double kph;
+	int accel;
+	int dec;
 public: 
+	Car();
 	Car(string make, string model, int year);
 	string getMake();
 	string getModel();
@@ -21,6 +24,8 @@ public:
 	double getKPH();
 	void accelerate();
 	void brake();
+	void printInfo();
+	void printSpeed();
 };
 
 #endif
