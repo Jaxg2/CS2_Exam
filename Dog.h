@@ -11,11 +11,15 @@ private:
 	int hum_age;
 	string name;
 	string breed;
+	string shake;
+	string sit;
 public:
 	Dog();
-	int getAge();
-	string getName();
-	string getBreed();
+	int getAge(int dog_age, int hum_age);
+	string getName(string name);
+	string getBreed(string breed);
+	string shakeHand(string shake);
+	string sitDown(string sit);
 };
 
 #endif
